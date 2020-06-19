@@ -176,14 +176,18 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     break;
 
                 case R.id.btnEqualsTo:
-                    if(!operation.equals("")) {
-                        ans = eval(operation);
-                        txtOperation.setText(ans + "");
-                        txtSolution.setText(ans + "");
-                        operation = (ans + "");
-                        currentSym = "0";
+                    try {
+                        if(!operation.equals("")) {
+                            ans = eval(operation);
+                            txtOperation.setText(ans + "");
+                            txtSolution.setText(ans + "");
+                            operation = (ans + "");
+                            currentSym = "0";
+                        }
+                        } catch (Exception e) {
+                        Toast.makeText(MainActivity.this, "Mathematical Error", Toast.LENGTH_SHORT).show();
+                        }
                         break;
-                    }
             }
     }
 

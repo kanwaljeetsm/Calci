@@ -13,7 +13,7 @@
     <string name="decimal">.</string>
     <string name="equalsTo">=</string>
     <string name="div">/</string>
-    <string name="mul">*</string>
+    <string name="mul">x</string>
     <string name="add">+</string>
     <string name="sub">-</string>
     <string name="ac">AC</string>
