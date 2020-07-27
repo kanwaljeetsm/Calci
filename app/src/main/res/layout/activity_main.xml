@@ -182,7 +182,7 @@
             <Button
                 android:id="@+id/btnDiv"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="0dp"
                 android:height="71dp"
                 android:background="#000000"
                 android:minHeight="48dip"
@@ -190,12 +190,13 @@
                 android:text="@string/div"
                 android:textColor="#FFFFFF"
                 android:textSize="40sp"
-                app:layout_columnWeight="1" />
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1" />
 
             <Button
                 android:id="@+id/btnMul"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="0dp"
                 android:height="71dp"
                 android:background="#000000"
                 android:minHeight="48dip"
@@ -203,12 +204,13 @@
                 android:text="@string/mul"
                 android:textColor="#FFFFFF"
                 android:textSize="40sp"
-                app:layout_columnWeight="1" />
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1" />
 
             <Button
                 android:id="@+id/btnSub"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="0dp"
                 android:height="71dp"
                 android:background="#000000"
                 android:minHeight="48dip"
@@ -216,12 +218,13 @@
                 android:text="@string/sub"
                 android:textColor="#FFFFFF"
                 android:textSize="40sp"
-                app:layout_columnWeight="1" />
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1" />
 
             <Button
                 android:id="@+id/btnAdd"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="0dp"
                 android:height="71dp"
                 android:background="#000000"
                 android:minHeight="48dip"
@@ -229,12 +232,13 @@
                 android:text="@string/add"
                 android:textColor="#FFFFFF"
                 android:textSize="40sp"
-                app:layout_columnWeight="1" />
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1" />
 
             <Button
                 android:id="@+id/btnAc"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="0dp"
                 android:height="71dp"
                 android:background="#000000"
                 android:minHeight="48dip"
@@ -242,12 +246,13 @@
                 android:text="@string/ac"
                 android:textColor="#FFFFFF"
                 android:textSize="40sp"
-                app:layout_columnWeight="1" />
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1" />
 
             <Button
                 android:id="@+id/btnC"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="0dp"
                 android:height="71dp"
                 android:background="#000000"
                 android:minHeight="48dip"
@@ -255,7 +260,8 @@
                 android:text="@string/c"
                 android:textColor="#FFFFFF"
                 android:textSize="40sp"
-                app:layout_columnWeight="1" />
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1" />
         </androidx.gridlayout.widget.GridLayout>
     </LinearLayout>
 

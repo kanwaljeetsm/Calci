@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnAc = findViewById(R.id.btnAc);
         btnC = findViewById(R.id.btnC);
         txtSolution.setText(solution);
-
+        
     }
 
     @Override
